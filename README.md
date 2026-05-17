@@ -89,6 +89,7 @@ Divides data into classes with equal numbers of features. Best for skewed distri
 ## Demo
 
 See the `examples/` directory for a working demo using Senegal region data.
+![](img/fig/sen-d.PNG)
 
 ## Browser Support
 
