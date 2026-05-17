@@ -21,13 +21,13 @@ Include the CSS and JS files in your HTML:
 <script src="path/to/leaflet-gradient-symbology.js"></script>
 ```
 
-### npm
+html### npm
 
 ```bash
 npm install leaflet-gradient-symbology
 ```
 
-## Usage
+bash## Usage
 
 ```javascript
 // Initialize the map
@@ -56,25 +56,27 @@ fetch('data/regions.geojson')
     });
 ```
 
-## Options
+javascript## Options
 
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| `map` | Object | `null` | Leaflet map instance (required for legend) |
-| `layer` | Object | required | Leaflet GeoJSON layer |
-| `field` | String | required | Property name to classify |
-| `palette` | String | `'Blues'` | Color palette name (Blues, Reds, Greens, Oranges) |
-| `classes` | Number | `5` | Number of classification classes |
-| `method` | String | `'equalInterval'` | Classification method ('equalInterval' or 'quantile') |
-| `legend` | Boolean | `true` | Whether to show legend |
-| `opacity` | Number | `0.7` | Fill opacity (0-1) |
+| Option      | Type    | Default             | Description                                           |
+| ----------- | ------- | ------------------- | ----------------------------------------------------- |
+| `map`     | Object  | `null`            | Leaflet map instance (required for legend)            |
+| `layer`   | Object  | required            | Leaflet GeoJSON layer                                 |
+| `field`   | String  | required            | Property name to classify                             |
+| `palette` | String  | `'Blues'`         | Color palette name (Blues, Reds, Greens, Oranges)     |
+| `classes` | Number  | `5`               | Number of classification classes                      |
+| `method`  | String  | `'equalInterval'` | Classification method ('equalInterval' or 'quantile') |
+| `legend`  | Boolean | `true`            | Whether to show legend                                |
+| `opacity` | Number  | `0.7`             | Fill opacity (0-1)                                    |
 
 ## Classification Methods
 
 ### Equal Interval
+
 Divides the data range into equal-sized intervals. Best for uniformly distributed data.
 
 ### Quantile
+
 Divides data into classes with equal numbers of features. Best for skewed distributions.
 
 ## Color Palettes
