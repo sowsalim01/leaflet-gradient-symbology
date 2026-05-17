@@ -1,4 +1,6 @@
 // legend.js
+// Author: Mamadou SOW (sowsalim)
+// Legend control for gradient symbology
 export const Legend = {
     create(map, breaks, colors, field) {
         const legend = L.control({ position: 'bottomright' });

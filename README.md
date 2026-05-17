@@ -109,4 +109,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Credits
 
-Developed for choropleth mapping and spatial data visualization.
+Developed by [Mamadou SOW](https://github.com/sowsalim) for choropleth mapping and spatial data visualization.

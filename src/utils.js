@@ -1,4 +1,6 @@
 // utils.js
+// Author: Mamadou SOW (sowsalim)
+// Utility functions for gradient symbology
 export const Utils = {
     extractValues(layer, field) {
         const values = [];

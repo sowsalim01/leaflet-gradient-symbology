@@ -20,7 +20,7 @@
     "geojson",
     "classification"
   ],
-  "author": "",
+  "author": "Mamadou SOW <sowsalim>",
   "license": "MIT",
   "peerDependencies": {
     "leaflet": "^1.9.0"

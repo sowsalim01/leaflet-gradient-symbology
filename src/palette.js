@@ -1,4 +1,6 @@
 // palette.js
+// Author: Mamadou SOW (sowsalim)
+// Color palette generation and interpolation
 export const Palette = {
     predefined: {
         Blues: ['#f7fbff', '#deebf7', '#9ecae1', '#3182bd', '#08519c'],

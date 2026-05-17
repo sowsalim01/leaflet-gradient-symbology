@@ -1,4 +1,6 @@
 // classifier.js
+// Author: Mamadou SOW (sowsalim)
+// Classification methods for gradient symbology
 export const Classifier = {
     computeBreaks(values, numClasses, method) {
         if (!values.length) return [];

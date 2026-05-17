@@ -1,4 +1,6 @@
 // L.GradientSymbology.js
+// Author: Mamadou SOW (sowsalim)
+// Leaflet plugin for gradient symbology
 import { Classifier } from './classifier.js';
 import { Palette } from './palette.js';
 import { Legend } from './legend.js';
